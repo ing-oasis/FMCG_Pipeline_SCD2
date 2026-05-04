@@ -1,0 +1,2288 @@
+[
+  {
+    "sku": "SKU01001",
+    "product_name": "HP Laptop M1",
+    "brand": "HP",
+    "category": "Laptops",
+    "list_price": 754.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01002",
+    "product_name": "HP Laptop M2",
+    "brand": "HP",
+    "category": "Laptops",
+    "list_price": 1259.95,
+    "supplier_id": "SUP104",
+    "active": true
+  },
+  {
+    "sku": "SKU01003",
+    "product_name": "HP Laptop M3",
+    "brand": "HP",
+    "category": "Laptops",
+    "list_price": 2394.95,
+    "supplier_id": "SUP121",
+    "active": true
+  },
+  {
+    "sku": "SKU01004",
+    "product_name": "Lenovo Laptop M1",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "list_price": 1034.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01005",
+    "product_name": "Lenovo Laptop M2",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "list_price": 884.95,
+    "supplier_id": "SUP102",
+    "active": true
+  },
+  {
+    "sku": "SKU01006",
+    "product_name": "Lenovo Laptop M3",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "list_price": 1389.95,
+    "supplier_id": "SUP116",
+    "active": true
+  },
+  {
+    "sku": "SKU01007",
+    "product_name": "Lenovo Laptop M4",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "list_price": 2424.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01008",
+    "product_name": "Lenovo Laptop M5",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "list_price": 1334.95,
+    "supplier_id": "SUP120",
+    "active": true
+  },
+  {
+    "sku": "SKU01009",
+    "product_name": "Lenovo Laptop M6",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "list_price": 2694.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01010",
+    "product_name": "Lenovo Laptop M7",
+    "brand": "Lenovo",
+    "category": "Laptops",
+    "list_price": 1394.95,
+    "supplier_id": "SUP118",
+    "active": true
+  },
+  {
+    "sku": "SKU01011",
+    "product_name": "ASUS Laptop M1",
+    "brand": "ASUS",
+    "category": "Laptops",
+    "list_price": 3409.95,
+    "supplier_id": "SUP100",
+    "active": true
+  },
+  {
+    "sku": "SKU01012",
+    "product_name": "ASUS Laptop M2",
+    "brand": "ASUS",
+    "category": "Laptops",
+    "list_price": 3249.95,
+    "supplier_id": "SUP105",
+    "active": true
+  },
+  {
+    "sku": "SKU01013",
+    "product_name": "ASUS Laptop M3",
+    "brand": "ASUS",
+    "category": "Laptops",
+    "list_price": 3064.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01014",
+    "product_name": "ASUS Laptop M4",
+    "brand": "ASUS",
+    "category": "Laptops",
+    "list_price": 1759.95,
+    "supplier_id": "SUP106",
+    "active": true
+  },
+  {
+    "sku": "SKU01015",
+    "product_name": "ASUS Laptop M5",
+    "brand": "ASUS",
+    "category": "Laptops",
+    "list_price": 3864.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01016",
+    "product_name": "Acer Laptop M1",
+    "brand": "Acer",
+    "category": "Laptops",
+    "list_price": 819.95,
+    "supplier_id": "SUP103",
+    "active": true
+  },
+  {
+    "sku": "SKU01017",
+    "product_name": "Acer Laptop M2",
+    "brand": "Acer",
+    "category": "Laptops",
+    "list_price": 1314.95,
+    "supplier_id": "SUP111",
+    "active": true
+  },
+  {
+    "sku": "SKU01018",
+    "product_name": "Acer Laptop M3",
+    "brand": "Acer",
+    "category": "Laptops",
+    "list_price": 1764.95,
+    "supplier_id": "SUP125",
+    "active": true
+  },
+  {
+    "sku": "SKU01019",
+    "product_name": "Dell Laptop M1",
+    "brand": "Dell",
+    "category": "Laptops",
+    "list_price": 3014.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01020",
+    "product_name": "Dell Laptop M2",
+    "brand": "Dell",
+    "category": "Laptops",
+    "list_price": 1259.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01021",
+    "product_name": "Dell Laptop M3",
+    "brand": "Dell",
+    "category": "Laptops",
+    "list_price": 1994.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01022",
+    "product_name": "Apple Laptop M1",
+    "brand": "Apple",
+    "category": "Laptops",
+    "list_price": 4399.95,
+    "supplier_id": "SUP119",
+    "active": true
+  },
+  {
+    "sku": "SKU01023",
+    "product_name": "Apple Laptop M2",
+    "brand": "Apple",
+    "category": "Laptops",
+    "list_price": 4599.95,
+    "supplier_id": "SUP111",
+    "active": true
+  },
+  {
+    "sku": "SKU01024",
+    "product_name": "Apple Laptop M3",
+    "brand": "Apple",
+    "category": "Laptops",
+    "list_price": 3519.95,
+    "supplier_id": "SUP122",
+    "active": true
+  },
+  {
+    "sku": "SKU01025",
+    "product_name": "Apple Laptop M4",
+    "brand": "Apple",
+    "category": "Laptops",
+    "list_price": 1739.95,
+    "supplier_id": "SUP121",
+    "active": true
+  },
+  {
+    "sku": "SKU01026",
+    "product_name": "Apple Laptop M5",
+    "brand": "Apple",
+    "category": "Laptops",
+    "list_price": 2294.95,
+    "supplier_id": "SUP109",
+    "active": true
+  },
+  {
+    "sku": "SKU01027",
+    "product_name": "MSI Laptop M1",
+    "brand": "MSI",
+    "category": "Laptops",
+    "list_price": 4034.95,
+    "supplier_id": "SUP127",
+    "active": true
+  },
+  {
+    "sku": "SKU01028",
+    "product_name": "MSI Laptop M2",
+    "brand": "MSI",
+    "category": "Laptops",
+    "list_price": 1619.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01029",
+    "product_name": "MSI Laptop M3",
+    "brand": "MSI",
+    "category": "Laptops",
+    "list_price": 2749.95,
+    "supplier_id": "SUP126",
+    "active": true
+  },
+  {
+    "sku": "SKU01030",
+    "product_name": "Intel Component M1",
+    "brand": "Intel",
+    "category": "Components",
+    "list_price": 414.95,
+    "supplier_id": "SUP111",
+    "active": true
+  },
+  {
+    "sku": "SKU01031",
+    "product_name": "Intel Component M2",
+    "brand": "Intel",
+    "category": "Components",
+    "list_price": 444.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01032",
+    "product_name": "Intel Component M3",
+    "brand": "Intel",
+    "category": "Components",
+    "list_price": 789.95,
+    "supplier_id": "SUP121",
+    "active": true
+  },
+  {
+    "sku": "SKU01033",
+    "product_name": "Intel Component M4",
+    "brand": "Intel",
+    "category": "Components",
+    "list_price": 754.95,
+    "supplier_id": "SUP119",
+    "active": true
+  },
+  {
+    "sku": "SKU01034",
+    "product_name": "Intel Component M5",
+    "brand": "Intel",
+    "category": "Components",
+    "list_price": 744.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01035",
+    "product_name": "AMD Component M1",
+    "brand": "AMD",
+    "category": "Components",
+    "list_price": 354.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01036",
+    "product_name": "AMD Component M2",
+    "brand": "AMD",
+    "category": "Components",
+    "list_price": 424.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01037",
+    "product_name": "AMD Component M3",
+    "brand": "AMD",
+    "category": "Components",
+    "list_price": 664.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01038",
+    "product_name": "AMD Component M4",
+    "brand": "AMD",
+    "category": "Components",
+    "list_price": 389.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01039",
+    "product_name": "NVIDIA Component M1",
+    "brand": "NVIDIA",
+    "category": "Components",
+    "list_price": 954.95,
+    "supplier_id": "SUP101",
+    "active": true
+  },
+  {
+    "sku": "SKU01040",
+    "product_name": "NVIDIA Component M2",
+    "brand": "NVIDIA",
+    "category": "Components",
+    "list_price": 2109.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01041",
+    "product_name": "NVIDIA Component M3",
+    "brand": "NVIDIA",
+    "category": "Components",
+    "list_price": 1034.95,
+    "supplier_id": "SUP106",
+    "active": true
+  },
+  {
+    "sku": "SKU01042",
+    "product_name": "ASUS Component M1",
+    "brand": "ASUS",
+    "category": "Components",
+    "list_price": 1774.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01043",
+    "product_name": "ASUS Component M2",
+    "brand": "ASUS",
+    "category": "Components",
+    "list_price": 579.95,
+    "supplier_id": "SUP115",
+    "active": true
+  },
+  {
+    "sku": "SKU01044",
+    "product_name": "ASUS Component M3",
+    "brand": "ASUS",
+    "category": "Components",
+    "list_price": 909.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01045",
+    "product_name": "ASUS Component M4",
+    "brand": "ASUS",
+    "category": "Components",
+    "list_price": 1354.95,
+    "supplier_id": "SUP104",
+    "active": true
+  },
+  {
+    "sku": "SKU01046",
+    "product_name": "ASUS Component M5",
+    "brand": "ASUS",
+    "category": "Components",
+    "list_price": 674.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01047",
+    "product_name": "ASUS Component M6",
+    "brand": "ASUS",
+    "category": "Components",
+    "list_price": 1539.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01048",
+    "product_name": "ASUS Component M7",
+    "brand": "ASUS",
+    "category": "Components",
+    "list_price": 669.95,
+    "supplier_id": "SUP118",
+    "active": true
+  },
+  {
+    "sku": "SKU01049",
+    "product_name": "MSI Component M1",
+    "brand": "MSI",
+    "category": "Components",
+    "list_price": 1724.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01050",
+    "product_name": "MSI Component M2",
+    "brand": "MSI",
+    "category": "Components",
+    "list_price": 799.95,
+    "supplier_id": "SUP104",
+    "active": true
+  },
+  {
+    "sku": "SKU01051",
+    "product_name": "MSI Component M3",
+    "brand": "MSI",
+    "category": "Components",
+    "list_price": 1054.95,
+    "supplier_id": "SUP102",
+    "active": true
+  },
+  {
+    "sku": "SKU01052",
+    "product_name": "MSI Component M4",
+    "brand": "MSI",
+    "category": "Components",
+    "list_price": 1479.95,
+    "supplier_id": "SUP127",
+    "active": true
+  },
+  {
+    "sku": "SKU01053",
+    "product_name": "MSI Component M5",
+    "brand": "MSI",
+    "category": "Components",
+    "list_price": 369.95,
+    "supplier_id": "SUP120",
+    "active": true
+  },
+  {
+    "sku": "SKU01054",
+    "product_name": "MSI Component M6",
+    "brand": "MSI",
+    "category": "Components",
+    "list_price": 454.95,
+    "supplier_id": "SUP121",
+    "active": true
+  },
+  {
+    "sku": "SKU01055",
+    "product_name": "Gigabyte Component M1",
+    "brand": "Gigabyte",
+    "category": "Components",
+    "list_price": 1144.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01056",
+    "product_name": "Gigabyte Component M2",
+    "brand": "Gigabyte",
+    "category": "Components",
+    "list_price": 794.95,
+    "supplier_id": "SUP114",
+    "active": true
+  },
+  {
+    "sku": "SKU01057",
+    "product_name": "Gigabyte Component M3",
+    "brand": "Gigabyte",
+    "category": "Components",
+    "list_price": 1034.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01058",
+    "product_name": "Gigabyte Component M4",
+    "brand": "Gigabyte",
+    "category": "Components",
+    "list_price": 1574.95,
+    "supplier_id": "SUP100",
+    "active": true
+  },
+  {
+    "sku": "SKU01059",
+    "product_name": "Gigabyte Component M5",
+    "brand": "Gigabyte",
+    "category": "Components",
+    "list_price": 1279.95,
+    "supplier_id": "SUP103",
+    "active": true
+  },
+  {
+    "sku": "SKU01060",
+    "product_name": "Gigabyte Component M6",
+    "brand": "Gigabyte",
+    "category": "Components",
+    "list_price": 1284.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01061",
+    "product_name": "Corsair Component M1",
+    "brand": "Corsair",
+    "category": "Components",
+    "list_price": 479.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01062",
+    "product_name": "Corsair Component M2",
+    "brand": "Corsair",
+    "category": "Components",
+    "list_price": 144.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01063",
+    "product_name": "Corsair Component M3",
+    "brand": "Corsair",
+    "category": "Components",
+    "list_price": 169.95,
+    "supplier_id": "SUP100",
+    "active": true
+  },
+  {
+    "sku": "SKU01064",
+    "product_name": "Corsair Component M4",
+    "brand": "Corsair",
+    "category": "Components",
+    "list_price": 574.95,
+    "supplier_id": "SUP128",
+    "active": true
+  },
+  {
+    "sku": "SKU01065",
+    "product_name": "Corsair Component M5",
+    "brand": "Corsair",
+    "category": "Components",
+    "list_price": 454.95,
+    "supplier_id": "SUP116",
+    "active": true
+  },
+  {
+    "sku": "SKU01066",
+    "product_name": "Kingston Component M1",
+    "brand": "Kingston",
+    "category": "Components",
+    "list_price": 254.95,
+    "supplier_id": "SUP103",
+    "active": true
+  },
+  {
+    "sku": "SKU01067",
+    "product_name": "Kingston Component M2",
+    "brand": "Kingston",
+    "category": "Components",
+    "list_price": 399.95,
+    "supplier_id": "SUP109",
+    "active": true
+  },
+  {
+    "sku": "SKU01068",
+    "product_name": "Kingston Component M3",
+    "brand": "Kingston",
+    "category": "Components",
+    "list_price": 384.95,
+    "supplier_id": "SUP116",
+    "active": true
+  },
+  {
+    "sku": "SKU01069",
+    "product_name": "Kingston Component M4",
+    "brand": "Kingston",
+    "category": "Components",
+    "list_price": 294.95,
+    "supplier_id": "SUP104",
+    "active": true
+  },
+  {
+    "sku": "SKU01070",
+    "product_name": "Samsung Component M1",
+    "brand": "Samsung",
+    "category": "Components",
+    "list_price": 559.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01071",
+    "product_name": "Samsung Component M2",
+    "brand": "Samsung",
+    "category": "Components",
+    "list_price": 669.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01072",
+    "product_name": "Samsung Component M3",
+    "brand": "Samsung",
+    "category": "Components",
+    "list_price": 424.95,
+    "supplier_id": "SUP100",
+    "active": true
+  },
+  {
+    "sku": "SKU01073",
+    "product_name": "Samsung Component M4",
+    "brand": "Samsung",
+    "category": "Components",
+    "list_price": 464.95,
+    "supplier_id": "SUP115",
+    "active": true
+  },
+  {
+    "sku": "SKU01074",
+    "product_name": "Samsung Component M5",
+    "brand": "Samsung",
+    "category": "Components",
+    "list_price": 129.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01075",
+    "product_name": "Western Digital Component M1",
+    "brand": "Western Digital",
+    "category": "Components",
+    "list_price": 494.95,
+    "supplier_id": "SUP126",
+    "active": true
+  },
+  {
+    "sku": "SKU01076",
+    "product_name": "Western Digital Component M2",
+    "brand": "Western Digital",
+    "category": "Components",
+    "list_price": 459.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01077",
+    "product_name": "Western Digital Component M3",
+    "brand": "Western Digital",
+    "category": "Components",
+    "list_price": 114.95,
+    "supplier_id": "SUP128",
+    "active": true
+  },
+  {
+    "sku": "SKU01078",
+    "product_name": "Western Digital Component M4",
+    "brand": "Western Digital",
+    "category": "Components",
+    "list_price": 349.95,
+    "supplier_id": "SUP102",
+    "active": true
+  },
+  {
+    "sku": "SKU01079",
+    "product_name": "Western Digital Component M5",
+    "brand": "Western Digital",
+    "category": "Components",
+    "list_price": 129.95,
+    "supplier_id": "SUP115",
+    "active": true
+  },
+  {
+    "sku": "SKU01080",
+    "product_name": "Logitech Peripheral M1",
+    "brand": "Logitech",
+    "category": "Peripherals",
+    "list_price": 389.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01081",
+    "product_name": "Logitech Peripheral M2",
+    "brand": "Logitech",
+    "category": "Peripherals",
+    "list_price": 309.95,
+    "supplier_id": "SUP104",
+    "active": true
+  },
+  {
+    "sku": "SKU01082",
+    "product_name": "Logitech Peripheral M3",
+    "brand": "Logitech",
+    "category": "Peripherals",
+    "list_price": 274.95,
+    "supplier_id": "SUP130",
+    "active": true
+  },
+  {
+    "sku": "SKU01083",
+    "product_name": "Razer Peripheral M1",
+    "brand": "Razer",
+    "category": "Peripherals",
+    "list_price": 129.95,
+    "supplier_id": "SUP116",
+    "active": true
+  },
+  {
+    "sku": "SKU01084",
+    "product_name": "Razer Peripheral M2",
+    "brand": "Razer",
+    "category": "Peripherals",
+    "list_price": 444.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01085",
+    "product_name": "Razer Peripheral M3",
+    "brand": "Razer",
+    "category": "Peripherals",
+    "list_price": 484.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01086",
+    "product_name": "Razer Peripheral M4",
+    "brand": "Razer",
+    "category": "Peripherals",
+    "list_price": 294.95,
+    "supplier_id": "SUP123",
+    "active": true
+  },
+  {
+    "sku": "SKU01087",
+    "product_name": "Razer Peripheral M5",
+    "brand": "Razer",
+    "category": "Peripherals",
+    "list_price": 364.95,
+    "supplier_id": "SUP122",
+    "active": true
+  },
+  {
+    "sku": "SKU01088",
+    "product_name": "Razer Peripheral M6",
+    "brand": "Razer",
+    "category": "Peripherals",
+    "list_price": 194.95,
+    "supplier_id": "SUP121",
+    "active": true
+  },
+  {
+    "sku": "SKU01089",
+    "product_name": "Razer Peripheral M7",
+    "brand": "Razer",
+    "category": "Peripherals",
+    "list_price": 344.95,
+    "supplier_id": "SUP114",
+    "active": true
+  },
+  {
+    "sku": "SKU01090",
+    "product_name": "SteelSeries Peripheral M1",
+    "brand": "SteelSeries",
+    "category": "Peripherals",
+    "list_price": 229.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01091",
+    "product_name": "SteelSeries Peripheral M2",
+    "brand": "SteelSeries",
+    "category": "Peripherals",
+    "list_price": 139.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01092",
+    "product_name": "SteelSeries Peripheral M3",
+    "brand": "SteelSeries",
+    "category": "Peripherals",
+    "list_price": 54.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01093",
+    "product_name": "SteelSeries Peripheral M4",
+    "brand": "SteelSeries",
+    "category": "Peripherals",
+    "list_price": 139.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01094",
+    "product_name": "SteelSeries Peripheral M5",
+    "brand": "SteelSeries",
+    "category": "Peripherals",
+    "list_price": 49.95,
+    "supplier_id": "SUP122",
+    "active": true
+  },
+  {
+    "sku": "SKU01095",
+    "product_name": "SteelSeries Peripheral M6",
+    "brand": "SteelSeries",
+    "category": "Peripherals",
+    "list_price": 299.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01096",
+    "product_name": "SteelSeries Peripheral M7",
+    "brand": "SteelSeries",
+    "category": "Peripherals",
+    "list_price": 74.95,
+    "supplier_id": "SUP101",
+    "active": true
+  },
+  {
+    "sku": "SKU01097",
+    "product_name": "HyperX Peripheral M1",
+    "brand": "HyperX",
+    "category": "Peripherals",
+    "list_price": 69.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01098",
+    "product_name": "HyperX Peripheral M2",
+    "brand": "HyperX",
+    "category": "Peripherals",
+    "list_price": 139.95,
+    "supplier_id": "SUP115",
+    "active": true
+  },
+  {
+    "sku": "SKU01099",
+    "product_name": "HyperX Peripheral M3",
+    "brand": "HyperX",
+    "category": "Peripherals",
+    "list_price": 119.95,
+    "supplier_id": "SUP104",
+    "active": true
+  },
+  {
+    "sku": "SKU01100",
+    "product_name": "HyperX Peripheral M4",
+    "brand": "HyperX",
+    "category": "Peripherals",
+    "list_price": 289.95,
+    "supplier_id": "SUP128",
+    "active": true
+  },
+  {
+    "sku": "SKU01101",
+    "product_name": "HyperX Peripheral M5",
+    "brand": "HyperX",
+    "category": "Peripherals",
+    "list_price": 234.95,
+    "supplier_id": "SUP115",
+    "active": true
+  },
+  {
+    "sku": "SKU01102",
+    "product_name": "Corsair Peripheral M1",
+    "brand": "Corsair",
+    "category": "Peripherals",
+    "list_price": 369.95,
+    "supplier_id": "SUP125",
+    "active": true
+  },
+  {
+    "sku": "SKU01103",
+    "product_name": "Corsair Peripheral M2",
+    "brand": "Corsair",
+    "category": "Peripherals",
+    "list_price": 229.95,
+    "supplier_id": "SUP103",
+    "active": true
+  },
+  {
+    "sku": "SKU01104",
+    "product_name": "Corsair Peripheral M3",
+    "brand": "Corsair",
+    "category": "Peripherals",
+    "list_price": 114.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01105",
+    "product_name": "Corsair Peripheral M4",
+    "brand": "Corsair",
+    "category": "Peripherals",
+    "list_price": 209.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01106",
+    "product_name": "LG Monitor M1",
+    "brand": "LG",
+    "category": "Monitors",
+    "list_price": 1759.95,
+    "supplier_id": "SUP101",
+    "active": true
+  },
+  {
+    "sku": "SKU01107",
+    "product_name": "LG Monitor M2",
+    "brand": "LG",
+    "category": "Monitors",
+    "list_price": 1424.95,
+    "supplier_id": "SUP120",
+    "active": true
+  },
+  {
+    "sku": "SKU01108",
+    "product_name": "LG Monitor M3",
+    "brand": "LG",
+    "category": "Monitors",
+    "list_price": 419.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01109",
+    "product_name": "LG Monitor M4",
+    "brand": "LG",
+    "category": "Monitors",
+    "list_price": 1524.95,
+    "supplier_id": "SUP125",
+    "active": true
+  },
+  {
+    "sku": "SKU01110",
+    "product_name": "LG Monitor M5",
+    "brand": "LG",
+    "category": "Monitors",
+    "list_price": 1754.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01111",
+    "product_name": "LG Monitor M6",
+    "brand": "LG",
+    "category": "Monitors",
+    "list_price": 584.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01112",
+    "product_name": "Samsung Monitor M1",
+    "brand": "Samsung",
+    "category": "Monitors",
+    "list_price": 544.95,
+    "supplier_id": "SUP105",
+    "active": true
+  },
+  {
+    "sku": "SKU01113",
+    "product_name": "Samsung Monitor M2",
+    "brand": "Samsung",
+    "category": "Monitors",
+    "list_price": 859.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01114",
+    "product_name": "Samsung Monitor M3",
+    "brand": "Samsung",
+    "category": "Monitors",
+    "list_price": 2214.95,
+    "supplier_id": "SUP102",
+    "active": true
+  },
+  {
+    "sku": "SKU01115",
+    "product_name": "Samsung Monitor M4",
+    "brand": "Samsung",
+    "category": "Monitors",
+    "list_price": 1234.95,
+    "supplier_id": "SUP127",
+    "active": true
+  },
+  {
+    "sku": "SKU01116",
+    "product_name": "Samsung Monitor M5",
+    "brand": "Samsung",
+    "category": "Monitors",
+    "list_price": 2169.95,
+    "supplier_id": "SUP103",
+    "active": true
+  },
+  {
+    "sku": "SKU01117",
+    "product_name": "Samsung Monitor M6",
+    "brand": "Samsung",
+    "category": "Monitors",
+    "list_price": 344.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01118",
+    "product_name": "ASUS Monitor M1",
+    "brand": "ASUS",
+    "category": "Monitors",
+    "list_price": 2719.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01119",
+    "product_name": "ASUS Monitor M2",
+    "brand": "ASUS",
+    "category": "Monitors",
+    "list_price": 2184.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01120",
+    "product_name": "ASUS Monitor M3",
+    "brand": "ASUS",
+    "category": "Monitors",
+    "list_price": 714.95,
+    "supplier_id": "SUP115",
+    "active": true
+  },
+  {
+    "sku": "SKU01121",
+    "product_name": "Dell Monitor M1",
+    "brand": "Dell",
+    "category": "Monitors",
+    "list_price": 624.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01122",
+    "product_name": "Dell Monitor M2",
+    "brand": "Dell",
+    "category": "Monitors",
+    "list_price": 1739.95,
+    "supplier_id": "SUP105",
+    "active": true
+  },
+  {
+    "sku": "SKU01123",
+    "product_name": "Dell Monitor M3",
+    "brand": "Dell",
+    "category": "Monitors",
+    "list_price": 894.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01124",
+    "product_name": "Dell Monitor M4",
+    "brand": "Dell",
+    "category": "Monitors",
+    "list_price": 709.95,
+    "supplier_id": "SUP125",
+    "active": true
+  },
+  {
+    "sku": "SKU01125",
+    "product_name": "Dell Monitor M5",
+    "brand": "Dell",
+    "category": "Monitors",
+    "list_price": 1549.95,
+    "supplier_id": "SUP109",
+    "active": true
+  },
+  {
+    "sku": "SKU01126",
+    "product_name": "Dell Monitor M6",
+    "brand": "Dell",
+    "category": "Monitors",
+    "list_price": 964.95,
+    "supplier_id": "SUP130",
+    "active": true
+  },
+  {
+    "sku": "SKU01127",
+    "product_name": "MSI Monitor M1",
+    "brand": "MSI",
+    "category": "Monitors",
+    "list_price": 1144.95,
+    "supplier_id": "SUP115",
+    "active": true
+  },
+  {
+    "sku": "SKU01128",
+    "product_name": "MSI Monitor M2",
+    "brand": "MSI",
+    "category": "Monitors",
+    "list_price": 459.95,
+    "supplier_id": "SUP109",
+    "active": true
+  },
+  {
+    "sku": "SKU01129",
+    "product_name": "MSI Monitor M3",
+    "brand": "MSI",
+    "category": "Monitors",
+    "list_price": 544.95,
+    "supplier_id": "SUP101",
+    "active": true
+  },
+  {
+    "sku": "SKU01130",
+    "product_name": "MSI Monitor M4",
+    "brand": "MSI",
+    "category": "Monitors",
+    "list_price": 1029.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01131",
+    "product_name": "MSI Monitor M5",
+    "brand": "MSI",
+    "category": "Monitors",
+    "list_price": 329.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01132",
+    "product_name": "MSI Monitor M6",
+    "brand": "MSI",
+    "category": "Monitors",
+    "list_price": 324.95,
+    "supplier_id": "SUP118",
+    "active": true
+  },
+  {
+    "sku": "SKU01133",
+    "product_name": "MSI Monitor M7",
+    "brand": "MSI",
+    "category": "Monitors",
+    "list_price": 894.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01134",
+    "product_name": "BenQ Monitor M1",
+    "brand": "BenQ",
+    "category": "Monitors",
+    "list_price": 534.95,
+    "supplier_id": "SUP130",
+    "active": true
+  },
+  {
+    "sku": "SKU01135",
+    "product_name": "BenQ Monitor M2",
+    "brand": "BenQ",
+    "category": "Monitors",
+    "list_price": 1059.95,
+    "supplier_id": "SUP127",
+    "active": true
+  },
+  {
+    "sku": "SKU01136",
+    "product_name": "BenQ Monitor M3",
+    "brand": "BenQ",
+    "category": "Monitors",
+    "list_price": 579.95,
+    "supplier_id": "SUP119",
+    "active": true
+  },
+  {
+    "sku": "SKU01137",
+    "product_name": "BenQ Monitor M4",
+    "brand": "BenQ",
+    "category": "Monitors",
+    "list_price": 399.95,
+    "supplier_id": "SUP127",
+    "active": true
+  },
+  {
+    "sku": "SKU01138",
+    "product_name": "BenQ Monitor M5",
+    "brand": "BenQ",
+    "category": "Monitors",
+    "list_price": 649.95,
+    "supplier_id": "SUP103",
+    "active": true
+  },
+  {
+    "sku": "SKU01139",
+    "product_name": "BenQ Monitor M6",
+    "brand": "BenQ",
+    "category": "Monitors",
+    "list_price": 1709.95,
+    "supplier_id": "SUP118",
+    "active": true
+  },
+  {
+    "sku": "SKU01140",
+    "product_name": "BenQ Monitor M7",
+    "brand": "BenQ",
+    "category": "Monitors",
+    "list_price": 669.95,
+    "supplier_id": "SUP119",
+    "active": true
+  },
+  {
+    "sku": "SKU01141",
+    "product_name": "TP-Link Networking M1",
+    "brand": "TP-Link",
+    "category": "Networking",
+    "list_price": 389.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01142",
+    "product_name": "TP-Link Networking M2",
+    "brand": "TP-Link",
+    "category": "Networking",
+    "list_price": 409.95,
+    "supplier_id": "SUP118",
+    "active": true
+  },
+  {
+    "sku": "SKU01143",
+    "product_name": "TP-Link Networking M3",
+    "brand": "TP-Link",
+    "category": "Networking",
+    "list_price": 334.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01144",
+    "product_name": "Netgear Networking M1",
+    "brand": "Netgear",
+    "category": "Networking",
+    "list_price": 244.95,
+    "supplier_id": "SUP122",
+    "active": true
+  },
+  {
+    "sku": "SKU01145",
+    "product_name": "Netgear Networking M2",
+    "brand": "Netgear",
+    "category": "Networking",
+    "list_price": 334.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01146",
+    "product_name": "Netgear Networking M3",
+    "brand": "Netgear",
+    "category": "Networking",
+    "list_price": 404.95,
+    "supplier_id": "SUP121",
+    "active": true
+  },
+  {
+    "sku": "SKU01147",
+    "product_name": "Netgear Networking M4",
+    "brand": "Netgear",
+    "category": "Networking",
+    "list_price": 609.95,
+    "supplier_id": "SUP114",
+    "active": true
+  },
+  {
+    "sku": "SKU01148",
+    "product_name": "Netgear Networking M5",
+    "brand": "Netgear",
+    "category": "Networking",
+    "list_price": 339.95,
+    "supplier_id": "SUP124",
+    "active": true
+  },
+  {
+    "sku": "SKU01149",
+    "product_name": "ASUS Networking M1",
+    "brand": "ASUS",
+    "category": "Networking",
+    "list_price": 139.95,
+    "supplier_id": "SUP119",
+    "active": true
+  },
+  {
+    "sku": "SKU01150",
+    "product_name": "ASUS Networking M2",
+    "brand": "ASUS",
+    "category": "Networking",
+    "list_price": 1294.95,
+    "supplier_id": "SUP103",
+    "active": true
+  },
+  {
+    "sku": "SKU01151",
+    "product_name": "ASUS Networking M3",
+    "brand": "ASUS",
+    "category": "Networking",
+    "list_price": 214.95,
+    "supplier_id": "SUP106",
+    "active": true
+  },
+  {
+    "sku": "SKU01152",
+    "product_name": "Ubiquiti Networking M1",
+    "brand": "Ubiquiti",
+    "category": "Networking",
+    "list_price": 534.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01153",
+    "product_name": "Ubiquiti Networking M2",
+    "brand": "Ubiquiti",
+    "category": "Networking",
+    "list_price": 654.95,
+    "supplier_id": "SUP102",
+    "active": true
+  },
+  {
+    "sku": "SKU01154",
+    "product_name": "Ubiquiti Networking M3",
+    "brand": "Ubiquiti",
+    "category": "Networking",
+    "list_price": 1424.95,
+    "supplier_id": "SUP111",
+    "active": true
+  },
+  {
+    "sku": "SKU01155",
+    "product_name": "Ubiquiti Networking M4",
+    "brand": "Ubiquiti",
+    "category": "Networking",
+    "list_price": 559.95,
+    "supplier_id": "SUP114",
+    "active": true
+  },
+  {
+    "sku": "SKU01156",
+    "product_name": "Ubiquiti Networking M5",
+    "brand": "Ubiquiti",
+    "category": "Networking",
+    "list_price": 1359.95,
+    "supplier_id": "SUP122",
+    "active": true
+  },
+  {
+    "sku": "SKU01157",
+    "product_name": "Ubiquiti Networking M6",
+    "brand": "Ubiquiti",
+    "category": "Networking",
+    "list_price": 589.95,
+    "supplier_id": "SUP125",
+    "active": true
+  },
+  {
+    "sku": "SKU01158",
+    "product_name": "Ubiquiti Networking M7",
+    "brand": "Ubiquiti",
+    "category": "Networking",
+    "list_price": 1094.95,
+    "supplier_id": "SUP100",
+    "active": true
+  },
+  {
+    "sku": "SKU01159",
+    "product_name": "Sony Audio M1",
+    "brand": "Sony",
+    "category": "Audio",
+    "list_price": 264.95,
+    "supplier_id": "SUP121",
+    "active": true
+  },
+  {
+    "sku": "SKU01160",
+    "product_name": "Sony Audio M2",
+    "brand": "Sony",
+    "category": "Audio",
+    "list_price": 144.95,
+    "supplier_id": "SUP128",
+    "active": true
+  },
+  {
+    "sku": "SKU01161",
+    "product_name": "Sony Audio M3",
+    "brand": "Sony",
+    "category": "Audio",
+    "list_price": 159.95,
+    "supplier_id": "SUP103",
+    "active": true
+  },
+  {
+    "sku": "SKU01162",
+    "product_name": "Sony Audio M4",
+    "brand": "Sony",
+    "category": "Audio",
+    "list_price": 629.95,
+    "supplier_id": "SUP123",
+    "active": true
+  },
+  {
+    "sku": "SKU01163",
+    "product_name": "Sony Audio M5",
+    "brand": "Sony",
+    "category": "Audio",
+    "list_price": 419.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01164",
+    "product_name": "Sony Audio M6",
+    "brand": "Sony",
+    "category": "Audio",
+    "list_price": 254.95,
+    "supplier_id": "SUP106",
+    "active": true
+  },
+  {
+    "sku": "SKU01165",
+    "product_name": "Sony Audio M7",
+    "brand": "Sony",
+    "category": "Audio",
+    "list_price": 524.95,
+    "supplier_id": "SUP106",
+    "active": true
+  },
+  {
+    "sku": "SKU01166",
+    "product_name": "Bose Audio M1",
+    "brand": "Bose",
+    "category": "Audio",
+    "list_price": 554.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01167",
+    "product_name": "Bose Audio M2",
+    "brand": "Bose",
+    "category": "Audio",
+    "list_price": 834.95,
+    "supplier_id": "SUP127",
+    "active": true
+  },
+  {
+    "sku": "SKU01168",
+    "product_name": "Bose Audio M3",
+    "brand": "Bose",
+    "category": "Audio",
+    "list_price": 234.95,
+    "supplier_id": "SUP120",
+    "active": true
+  },
+  {
+    "sku": "SKU01169",
+    "product_name": "Bose Audio M4",
+    "brand": "Bose",
+    "category": "Audio",
+    "list_price": 494.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01170",
+    "product_name": "Bose Audio M5",
+    "brand": "Bose",
+    "category": "Audio",
+    "list_price": 229.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01171",
+    "product_name": "JBL Audio M1",
+    "brand": "JBL",
+    "category": "Audio",
+    "list_price": 369.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01172",
+    "product_name": "JBL Audio M2",
+    "brand": "JBL",
+    "category": "Audio",
+    "list_price": 129.95,
+    "supplier_id": "SUP114",
+    "active": true
+  },
+  {
+    "sku": "SKU01173",
+    "product_name": "JBL Audio M3",
+    "brand": "JBL",
+    "category": "Audio",
+    "list_price": 324.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01174",
+    "product_name": "JBL Audio M4",
+    "brand": "JBL",
+    "category": "Audio",
+    "list_price": 329.95,
+    "supplier_id": "SUP103",
+    "active": true
+  },
+  {
+    "sku": "SKU01175",
+    "product_name": "Logitech Audio M1",
+    "brand": "Logitech",
+    "category": "Audio",
+    "list_price": 379.95,
+    "supplier_id": "SUP122",
+    "active": true
+  },
+  {
+    "sku": "SKU01176",
+    "product_name": "Logitech Audio M2",
+    "brand": "Logitech",
+    "category": "Audio",
+    "list_price": 364.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01177",
+    "product_name": "Logitech Audio M3",
+    "brand": "Logitech",
+    "category": "Audio",
+    "list_price": 39.95,
+    "supplier_id": "SUP111",
+    "active": true
+  },
+  {
+    "sku": "SKU01178",
+    "product_name": "HyperX Audio M1",
+    "brand": "HyperX",
+    "category": "Audio",
+    "list_price": 219.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01179",
+    "product_name": "HyperX Audio M2",
+    "brand": "HyperX",
+    "category": "Audio",
+    "list_price": 94.95,
+    "supplier_id": "SUP109",
+    "active": true
+  },
+  {
+    "sku": "SKU01180",
+    "product_name": "HyperX Audio M3",
+    "brand": "HyperX",
+    "category": "Audio",
+    "list_price": 164.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01181",
+    "product_name": "HyperX Audio M4",
+    "brand": "HyperX",
+    "category": "Audio",
+    "list_price": 289.95,
+    "supplier_id": "SUP127",
+    "active": true
+  },
+  {
+    "sku": "SKU01182",
+    "product_name": "HyperX Audio M5",
+    "brand": "HyperX",
+    "category": "Audio",
+    "list_price": 69.95,
+    "supplier_id": "SUP111",
+    "active": true
+  },
+  {
+    "sku": "SKU01183",
+    "product_name": "HyperX Audio M6",
+    "brand": "HyperX",
+    "category": "Audio",
+    "list_price": 119.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01184",
+    "product_name": "HyperX Audio M7",
+    "brand": "HyperX",
+    "category": "Audio",
+    "list_price": 249.95,
+    "supplier_id": "SUP111",
+    "active": true
+  },
+  {
+    "sku": "SKU01185",
+    "product_name": "Sony Gaming M1",
+    "brand": "Sony",
+    "category": "Gaming",
+    "list_price": 1204.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01186",
+    "product_name": "Sony Gaming M2",
+    "brand": "Sony",
+    "category": "Gaming",
+    "list_price": 1279.95,
+    "supplier_id": "SUP123",
+    "active": true
+  },
+  {
+    "sku": "SKU01187",
+    "product_name": "Sony Gaming M3",
+    "brand": "Sony",
+    "category": "Gaming",
+    "list_price": 624.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01188",
+    "product_name": "Sony Gaming M4",
+    "brand": "Sony",
+    "category": "Gaming",
+    "list_price": 689.95,
+    "supplier_id": "SUP105",
+    "active": true
+  },
+  {
+    "sku": "SKU01189",
+    "product_name": "Sony Gaming M5",
+    "brand": "Sony",
+    "category": "Gaming",
+    "list_price": 1279.95,
+    "supplier_id": "SUP125",
+    "active": true
+  },
+  {
+    "sku": "SKU01190",
+    "product_name": "Sony Gaming M6",
+    "brand": "Sony",
+    "category": "Gaming",
+    "list_price": 639.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01191",
+    "product_name": "Sony Gaming M7",
+    "brand": "Sony",
+    "category": "Gaming",
+    "list_price": 519.95,
+    "supplier_id": "SUP123",
+    "active": true
+  },
+  {
+    "sku": "SKU01192",
+    "product_name": "Microsoft Gaming M1",
+    "brand": "Microsoft",
+    "category": "Gaming",
+    "list_price": 879.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01193",
+    "product_name": "Microsoft Gaming M2",
+    "brand": "Microsoft",
+    "category": "Gaming",
+    "list_price": 889.95,
+    "supplier_id": "SUP127",
+    "active": true
+  },
+  {
+    "sku": "SKU01194",
+    "product_name": "Microsoft Gaming M3",
+    "brand": "Microsoft",
+    "category": "Gaming",
+    "list_price": 854.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01195",
+    "product_name": "Microsoft Gaming M4",
+    "brand": "Microsoft",
+    "category": "Gaming",
+    "list_price": 594.95,
+    "supplier_id": "SUP125",
+    "active": true
+  },
+  {
+    "sku": "SKU01196",
+    "product_name": "Microsoft Gaming M5",
+    "brand": "Microsoft",
+    "category": "Gaming",
+    "list_price": 834.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01197",
+    "product_name": "Nintendo Gaming M1",
+    "brand": "Nintendo",
+    "category": "Gaming",
+    "list_price": 734.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01198",
+    "product_name": "Nintendo Gaming M2",
+    "brand": "Nintendo",
+    "category": "Gaming",
+    "list_price": 439.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01199",
+    "product_name": "Nintendo Gaming M3",
+    "brand": "Nintendo",
+    "category": "Gaming",
+    "list_price": 554.95,
+    "supplier_id": "SUP109",
+    "active": true
+  },
+  {
+    "sku": "SKU01200",
+    "product_name": "Razer Gaming M1",
+    "brand": "Razer",
+    "category": "Gaming",
+    "list_price": 194.95,
+    "supplier_id": "SUP121",
+    "active": true
+  },
+  {
+    "sku": "SKU01201",
+    "product_name": "Razer Gaming M2",
+    "brand": "Razer",
+    "category": "Gaming",
+    "list_price": 179.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01202",
+    "product_name": "Razer Gaming M3",
+    "brand": "Razer",
+    "category": "Gaming",
+    "list_price": 224.95,
+    "supplier_id": "SUP102",
+    "active": true
+  },
+  {
+    "sku": "SKU01203",
+    "product_name": "Razer Gaming M4",
+    "brand": "Razer",
+    "category": "Gaming",
+    "list_price": 579.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01204",
+    "product_name": "Logitech Gaming M1",
+    "brand": "Logitech",
+    "category": "Gaming",
+    "list_price": 309.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01205",
+    "product_name": "Logitech Gaming M2",
+    "brand": "Logitech",
+    "category": "Gaming",
+    "list_price": 324.95,
+    "supplier_id": "SUP126",
+    "active": true
+  },
+  {
+    "sku": "SKU01206",
+    "product_name": "Logitech Gaming M3",
+    "brand": "Logitech",
+    "category": "Gaming",
+    "list_price": 269.95,
+    "supplier_id": "SUP130",
+    "active": true
+  },
+  {
+    "sku": "SKU01207",
+    "product_name": "Logitech Gaming M4",
+    "brand": "Logitech",
+    "category": "Gaming",
+    "list_price": 69.95,
+    "supplier_id": "SUP128",
+    "active": true
+  },
+  {
+    "sku": "SKU01208",
+    "product_name": "Logitech Gaming M5",
+    "brand": "Logitech",
+    "category": "Gaming",
+    "list_price": 434.95,
+    "supplier_id": "SUP105",
+    "active": true
+  },
+  {
+    "sku": "SKU01209",
+    "product_name": "Samsung Storage M1",
+    "brand": "Samsung",
+    "category": "Storage",
+    "list_price": 869.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01210",
+    "product_name": "Samsung Storage M2",
+    "brand": "Samsung",
+    "category": "Storage",
+    "list_price": 109.95,
+    "supplier_id": "SUP119",
+    "active": true
+  },
+  {
+    "sku": "SKU01211",
+    "product_name": "Samsung Storage M3",
+    "brand": "Samsung",
+    "category": "Storage",
+    "list_price": 434.95,
+    "supplier_id": "SUP123",
+    "active": true
+  },
+  {
+    "sku": "SKU01212",
+    "product_name": "Samsung Storage M4",
+    "brand": "Samsung",
+    "category": "Storage",
+    "list_price": 724.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01213",
+    "product_name": "Samsung Storage M5",
+    "brand": "Samsung",
+    "category": "Storage",
+    "list_price": 574.95,
+    "supplier_id": "SUP116",
+    "active": true
+  },
+  {
+    "sku": "SKU01214",
+    "product_name": "Samsung Storage M6",
+    "brand": "Samsung",
+    "category": "Storage",
+    "list_price": 174.95,
+    "supplier_id": "SUP128",
+    "active": true
+  },
+  {
+    "sku": "SKU01215",
+    "product_name": "Samsung Storage M7",
+    "brand": "Samsung",
+    "category": "Storage",
+    "list_price": 549.95,
+    "supplier_id": "SUP108",
+    "active": true
+  },
+  {
+    "sku": "SKU01216",
+    "product_name": "Kingston Storage M1",
+    "brand": "Kingston",
+    "category": "Storage",
+    "list_price": 439.95,
+    "supplier_id": "SUP100",
+    "active": true
+  },
+  {
+    "sku": "SKU01217",
+    "product_name": "Kingston Storage M2",
+    "brand": "Kingston",
+    "category": "Storage",
+    "list_price": 339.95,
+    "supplier_id": "SUP125",
+    "active": true
+  },
+  {
+    "sku": "SKU01218",
+    "product_name": "Kingston Storage M3",
+    "brand": "Kingston",
+    "category": "Storage",
+    "list_price": 349.95,
+    "supplier_id": "SUP123",
+    "active": true
+  },
+  {
+    "sku": "SKU01219",
+    "product_name": "Western Digital Storage M1",
+    "brand": "Western Digital",
+    "category": "Storage",
+    "list_price": 304.95,
+    "supplier_id": "SUP102",
+    "active": true
+  },
+  {
+    "sku": "SKU01220",
+    "product_name": "Western Digital Storage M2",
+    "brand": "Western Digital",
+    "category": "Storage",
+    "list_price": 714.95,
+    "supplier_id": "SUP129",
+    "active": true
+  },
+  {
+    "sku": "SKU01221",
+    "product_name": "Western Digital Storage M3",
+    "brand": "Western Digital",
+    "category": "Storage",
+    "list_price": 279.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01222",
+    "product_name": "Western Digital Storage M4",
+    "brand": "Western Digital",
+    "category": "Storage",
+    "list_price": 514.95,
+    "supplier_id": "SUP103",
+    "active": true
+  },
+  {
+    "sku": "SKU01223",
+    "product_name": "Seagate Storage M1",
+    "brand": "Seagate",
+    "category": "Storage",
+    "list_price": 379.95,
+    "supplier_id": "SUP121",
+    "active": true
+  },
+  {
+    "sku": "SKU01224",
+    "product_name": "Seagate Storage M2",
+    "brand": "Seagate",
+    "category": "Storage",
+    "list_price": 314.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01225",
+    "product_name": "Seagate Storage M3",
+    "brand": "Seagate",
+    "category": "Storage",
+    "list_price": 499.95,
+    "supplier_id": "SUP117",
+    "active": true
+  },
+  {
+    "sku": "SKU01226",
+    "product_name": "Seagate Storage M4",
+    "brand": "Seagate",
+    "category": "Storage",
+    "list_price": 129.95,
+    "supplier_id": "SUP113",
+    "active": true
+  },
+  {
+    "sku": "SKU01227",
+    "product_name": "Seagate Storage M5",
+    "brand": "Seagate",
+    "category": "Storage",
+    "list_price": 479.95,
+    "supplier_id": "SUP112",
+    "active": true
+  },
+  {
+    "sku": "SKU01228",
+    "product_name": "Crucial Storage M1",
+    "brand": "Crucial",
+    "category": "Storage",
+    "list_price": 329.95,
+    "supplier_id": "SUP109",
+    "active": true
+  },
+  {
+    "sku": "SKU01229",
+    "product_name": "Crucial Storage M2",
+    "brand": "Crucial",
+    "category": "Storage",
+    "list_price": 239.95,
+    "supplier_id": "SUP126",
+    "active": true
+  },
+  {
+    "sku": "SKU01230",
+    "product_name": "Crucial Storage M3",
+    "brand": "Crucial",
+    "category": "Storage",
+    "list_price": 59.95,
+    "supplier_id": "SUP109",
+    "active": true
+  },
+  {
+    "sku": "SKU01231",
+    "product_name": "Crucial Storage M4",
+    "brand": "Crucial",
+    "category": "Storage",
+    "list_price": 149.95,
+    "supplier_id": "SUP125",
+    "active": true
+  },
+  {
+    "sku": "SKU01232",
+    "product_name": "Samsung Mobile M1",
+    "brand": "Samsung",
+    "category": "Mobile",
+    "list_price": 1634.95,
+    "supplier_id": "SUP110",
+    "active": true
+  },
+  {
+    "sku": "SKU01233",
+    "product_name": "Samsung Mobile M2",
+    "brand": "Samsung",
+    "category": "Mobile",
+    "list_price": 1319.95,
+    "supplier_id": "SUP114",
+    "active": true
+  },
+  {
+    "sku": "SKU01234",
+    "product_name": "Samsung Mobile M3",
+    "brand": "Samsung",
+    "category": "Mobile",
+    "list_price": 1784.95,
+    "supplier_id": "SUP116",
+    "active": true
+  },
+  {
+    "sku": "SKU01235",
+    "product_name": "Samsung Mobile M4",
+    "brand": "Samsung",
+    "category": "Mobile",
+    "list_price": 1339.95,
+    "supplier_id": "SUP128",
+    "active": true
+  },
+  {
+    "sku": "SKU01236",
+    "product_name": "Samsung Mobile M5",
+    "brand": "Samsung",
+    "category": "Mobile",
+    "list_price": 2409.95,
+    "supplier_id": "SUP123",
+    "active": true
+  },
+  {
+    "sku": "SKU01237",
+    "product_name": "Samsung Mobile M6",
+    "brand": "Samsung",
+    "category": "Mobile",
+    "list_price": 669.95,
+    "supplier_id": "SUP102",
+    "active": true
+  },
+  {
+    "sku": "SKU01238",
+    "product_name": "Samsung Mobile M7",
+    "brand": "Samsung",
+    "category": "Mobile",
+    "list_price": 924.95,
+    "supplier_id": "SUP121",
+    "active": true
+  },
+  {
+    "sku": "SKU01239",
+    "product_name": "Apple Mobile M1",
+    "brand": "Apple",
+    "category": "Mobile",
+    "list_price": 1369.95,
+    "supplier_id": "SUP126",
+    "active": true
+  },
+  {
+    "sku": "SKU01240",
+    "product_name": "Apple Mobile M2",
+    "brand": "Apple",
+    "category": "Mobile",
+    "list_price": 2789.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01241",
+    "product_name": "Apple Mobile M3",
+    "brand": "Apple",
+    "category": "Mobile",
+    "list_price": 2144.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01242",
+    "product_name": "Apple Mobile M4",
+    "brand": "Apple",
+    "category": "Mobile",
+    "list_price": 2454.95,
+    "supplier_id": "SUP104",
+    "active": true
+  },
+  {
+    "sku": "SKU01243",
+    "product_name": "Apple Mobile M5",
+    "brand": "Apple",
+    "category": "Mobile",
+    "list_price": 654.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01244",
+    "product_name": "Apple Mobile M6",
+    "brand": "Apple",
+    "category": "Mobile",
+    "list_price": 2859.95,
+    "supplier_id": "SUP119",
+    "active": true
+  },
+  {
+    "sku": "SKU01245",
+    "product_name": "Apple Mobile M7",
+    "brand": "Apple",
+    "category": "Mobile",
+    "list_price": 2554.95,
+    "supplier_id": "SUP102",
+    "active": true
+  },
+  {
+    "sku": "SKU01246",
+    "product_name": "Google Mobile M1",
+    "brand": "Google",
+    "category": "Mobile",
+    "list_price": 1149.95,
+    "supplier_id": "SUP120",
+    "active": true
+  },
+  {
+    "sku": "SKU01247",
+    "product_name": "Google Mobile M2",
+    "brand": "Google",
+    "category": "Mobile",
+    "list_price": 1384.95,
+    "supplier_id": "SUP122",
+    "active": true
+  },
+  {
+    "sku": "SKU01248",
+    "product_name": "Google Mobile M3",
+    "brand": "Google",
+    "category": "Mobile",
+    "list_price": 1559.95,
+    "supplier_id": "SUP115",
+    "active": true
+  },
+  {
+    "sku": "SKU01249",
+    "product_name": "Google Mobile M4",
+    "brand": "Google",
+    "category": "Mobile",
+    "list_price": 1129.95,
+    "supplier_id": "SUP104",
+    "active": true
+  },
+  {
+    "sku": "SKU01250",
+    "product_name": "Google Mobile M5",
+    "brand": "Google",
+    "category": "Mobile",
+    "list_price": 1499.95,
+    "supplier_id": "SUP100",
+    "active": true
+  },
+  {
+    "sku": "SKU01251",
+    "product_name": "Google Mobile M6",
+    "brand": "Google",
+    "category": "Mobile",
+    "list_price": 1844.95,
+    "supplier_id": "SUP127",
+    "active": true
+  },
+  {
+    "sku": "SKU01252",
+    "product_name": "OPPO Mobile M1",
+    "brand": "OPPO",
+    "category": "Mobile",
+    "list_price": 1234.95,
+    "supplier_id": "SUP107",
+    "active": true
+  },
+  {
+    "sku": "SKU01253",
+    "product_name": "OPPO Mobile M2",
+    "brand": "OPPO",
+    "category": "Mobile",
+    "list_price": 509.95,
+    "supplier_id": "SUP130",
+    "active": true
+  },
+  {
+    "sku": "SKU01254",
+    "product_name": "OPPO Mobile M3",
+    "brand": "OPPO",
+    "category": "Mobile",
+    "list_price": 1134.95,
+    "supplier_id": "SUP114",
+    "active": true
+  }
+]

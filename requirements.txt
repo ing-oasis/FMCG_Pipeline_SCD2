@@ -1,0 +1,8 @@
+# Local development requirements (for running scripts/ outside Docker).
+# Airflow itself runs in the Docker container with deps baked in via
+# docker/Dockerfile.airflow — this file is just for the data generator,
+# transform smoke tests, and any direct database probing you do locally.
+
+pandas==2.2.2
+sqlalchemy==1.4.52
+psycopg2-binary==2.9.9

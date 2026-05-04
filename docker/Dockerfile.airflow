@@ -1,0 +1,21 @@
+# Custom Airflow image with the project's Python dependencies pre-installed.
+#
+# Why a custom image instead of _PIP_ADDITIONAL_REQUIREMENTS:
+# - That env var re-installs packages on every container start (2-3 min delay)
+# - Custom image installs once at build time, then container starts in seconds
+# - For a project with 30+ dev hours, the time saved is significant
+#
+# Build: handled automatically by docker-compose (the build: directive)
+
+FROM apache/airflow:2.9.3-python3.11
+
+# Switch to airflow user for pip install (Airflow images run as airflow uid 50000)
+USER airflow
+
+# Pre-install the dependencies the DAG needs at runtime.
+# Pinned versions for reproducibility.
+RUN pip install --no-cache-dir \
+    apache-airflow-providers-postgres==5.11.2 \
+    pandas==2.2.2 \
+    sqlalchemy==1.4.52 \
+    psycopg2-binary==2.9.9

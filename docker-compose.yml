@@ -1,0 +1,62 @@
+# Docker Compose for the PB Tech ETL pipeline (Option A — Inventory & Margin).
+#
+# Two services:
+#   - postgres: Postgres 15. Hosts both Airflow's metadata DB and the
+#     pbtech_warehouse application DB.
+#   - airflow:  Custom Airflow 2.9 image (deps baked in, see docker/Dockerfile.airflow)
+#               running in standalone mode (webserver + scheduler in one container).
+#
+# Usage:
+#   docker compose up -d --build      # first-time start (builds the image)
+#   docker compose up -d              # subsequent starts (uses cached image)
+#   docker compose logs -f airflow    # watch Airflow logs
+#   docker compose down               # stop everything
+#   docker compose down -v            # stop + wipe Postgres volume (full reset)
+#
+# Airflow UI: http://localhost:8080 (admin / admin after running setup.sh)
+
+services:
+  postgres:
+    image: postgres:15-alpine
+    container_name: pb_postgres
+    environment:
+      POSTGRES_USER:     airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB:       airflow
+    ports:
+      - "5432:5432"
+    volumes:
+      - pb_postgres_data:/var/lib/postgresql/data
+      - ./sql/00_init.sql:/docker-entrypoint-initdb.d/00_init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  airflow:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.airflow
+    image: pb-tech-airflow:local
+    container_name: pb_airflow
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      AIRFLOW__CORE__EXECUTOR:               LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN:   postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES:          "false"
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG:     "true"
+      _AIRFLOW_DB_MIGRATE:                   "true"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./data:/opt/airflow/data
+      - ./plugins:/opt/airflow/plugins
+      - ./logs:/opt/airflow/logs
+    command: standalone
+
+volumes:
+  pb_postgres_data:

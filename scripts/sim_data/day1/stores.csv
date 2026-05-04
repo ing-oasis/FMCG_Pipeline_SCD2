@@ -1,0 +1,19 @@
+store_id,store_name,region,store_type,is_warehouse,home_warehouse_id,open_date
+ST001,Auckland Albany,Auckland,Physical,False,WH001,2010-01-01
+ST002,Auckland Penrose,Auckland,Physical,False,WH001,2010-01-01
+ST003,Auckland Manukau,Auckland,Physical,False,WH001,2010-01-01
+ST004,Auckland CBD,Auckland,Physical,False,WH001,2010-01-01
+ST005,Hamilton Te Rapa,Waikato,Physical,False,WH002,2010-01-01
+ST006,Tauranga Mt Maunganui,Bay of Plenty,Physical,False,WH002,2010-01-01
+ST007,Wellington Petone,Wellington,Physical,False,WH003,2010-01-01
+ST008,Wellington CBD,Wellington,Physical,False,WH003,2010-01-01
+ST009,Christchurch Tower Junction,Canterbury,Physical,False,WH004,2010-01-01
+ST010,Christchurch Riccarton,Canterbury,Physical,False,WH004,2010-01-01
+ST011,Dunedin,Otago,Physical,False,WH004,2010-01-01
+ST012,Online - Website,National,Online,False,WH001,2015-06-01
+ST013,Online - Mobile App,National,Online,False,WH001,2015-06-01
+ST014,Online - Marketplace,National,Online,False,WH001,2015-06-01
+WH001,Auckland DC,Auckland,Physical,True,WH001,2010-01-01
+WH002,Hamilton DC,Waikato,Physical,True,WH002,2010-01-01
+WH003,Wellington DC,Wellington,Physical,True,WH003,2010-01-01
+WH004,Christchurch DC,Canterbury,Physical,True,WH004,2010-01-01

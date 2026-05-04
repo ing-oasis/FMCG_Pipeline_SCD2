@@ -1,0 +1,237 @@
+{
+  "type2_unit_cost_changes": [
+    {
+      "sku": "SKU01022",
+      "old_cost": 3394.837,
+      "new_cost": 3697.1546
+    },
+    {
+      "sku": "SKU01127",
+      "old_cost": 816.87,
+      "new_cost": 748.0117
+    },
+    {
+      "sku": "SKU01213",
+      "old_cost": 320.8545,
+      "new_cost": 358.233
+    },
+    {
+      "sku": "SKU01030",
+      "old_cost": 240.0658,
+      "new_cost": 230.7854
+    },
+    {
+      "sku": "SKU01020",
+      "old_cost": 793.5304,
+      "new_cost": 702.3429
+    },
+    {
+      "sku": "SKU01164",
+      "old_cost": 152.6877,
+      "new_cost": 140.7035
+    },
+    {
+      "sku": "SKU01225",
+      "old_cost": 372.9936,
+      "new_cost": 413.9048
+    },
+    {
+      "sku": "SKU01203",
+      "old_cost": 430.181,
+      "new_cost": 390.4325
+    },
+    {
+      "sku": "SKU01040",
+      "old_cost": 1469.9894,
+      "new_cost": 1389.505
+    },
+    {
+      "sku": "SKU01234",
+      "old_cost": 1077.2439,
+      "new_cost": 1197.9271
+    },
+    {
+      "sku": "SKU01245",
+      "old_cost": 1518.047,
+      "new_cost": 1620.9704
+    },
+    {
+      "sku": "SKU01027",
+      "old_cost": 2978.3749,
+      "new_cost": 2672.4606
+    },
+    {
+      "sku": "SKU01190",
+      "old_cost": 444.0118,
+      "new_cost": 496.8452
+    },
+    {
+      "sku": "SKU01206",
+      "old_cost": 205.3061,
+      "new_cost": 217.4495
+    },
+    {
+      "sku": "SKU01241",
+      "old_cost": 1330.8833,
+      "new_cost": 1456.7239
+    },
+    {
+      "sku": "SKU01248",
+      "old_cost": 1132.85,
+      "new_cost": 1037.1354
+    },
+    {
+      "sku": "SKU01117",
+      "old_cost": 235.718,
+      "new_cost": 210.4539
+    },
+    {
+      "sku": "SKU01170",
+      "old_cost": 159.9486,
+      "new_cost": 173.7311
+    },
+    {
+      "sku": "SKU01097",
+      "old_cost": 47.2421,
+      "new_cost": 50.8237
+    },
+    {
+      "sku": "SKU01041",
+      "old_cost": 784.0149,
+      "new_cost": 726.756
+    },
+    {
+      "sku": "SKU01192",
+      "old_cost": 598.658,
+      "new_cost": 550.259
+    },
+    {
+      "sku": "SKU01086",
+      "old_cost": 175.3037,
+      "new_cost": 190.1034
+    },
+    {
+      "sku": "SKU01195",
+      "old_cost": 431.0797,
+      "new_cost": 384.2256
+    },
+    {
+      "sku": "SKU01035",
+      "old_cost": 210.9494,
+      "new_cost": 223.9767
+    },
+    {
+      "sku": "SKU01088",
+      "old_cost": 139.511,
+      "new_cost": 126.9054
+    }
+  ],
+  "type2_supplier_changes": [
+    {
+      "sku": "SKU01186",
+      "old_supplier": "SUP123",
+      "new_supplier": "SUP102"
+    },
+    {
+      "sku": "SKU01238",
+      "old_supplier": "SUP121",
+      "new_supplier": "SUP122"
+    },
+    {
+      "sku": "SKU01048",
+      "old_supplier": "SUP118",
+      "new_supplier": "SUP102"
+    }
+  ],
+  "type2_both_changes": [
+    {
+      "sku": "SKU01244",
+      "old_cost": 2187.3044,
+      "new_cost": 2362.2888,
+      "old_supplier": "SUP119",
+      "new_supplier": "SUP129"
+    },
+    {
+      "sku": "SKU01133",
+      "old_cost": 554.8934,
+      "new_cost": 599.2849,
+      "old_supplier": "SUP129",
+      "new_supplier": "SUP120"
+    }
+  ],
+  "type1_uom_changes": [
+    {
+      "sku": "SKU01106",
+      "old_uom": "each",
+      "new_uom": "carton"
+    },
+    {
+      "sku": "SKU01230",
+      "old_uom": "each",
+      "new_uom": "carton"
+    },
+    {
+      "sku": "SKU01039",
+      "old_uom": "each",
+      "new_uom": "carton"
+    },
+    {
+      "sku": "SKU01187",
+      "old_uom": "each",
+      "new_uom": "carton"
+    },
+    {
+      "sku": "SKU01114",
+      "old_uom": "each",
+      "new_uom": "carton"
+    },
+    {
+      "sku": "SKU01172",
+      "old_uom": "each",
+      "new_uom": "carton"
+    },
+    {
+      "sku": "SKU01147",
+      "old_uom": "each",
+      "new_uom": "carton"
+    },
+    {
+      "sku": "SKU01155",
+      "old_uom": "each",
+      "new_uom": "carton"
+    },
+    {
+      "sku": "SKU01070",
+      "old_uom": "each",
+      "new_uom": "carton"
+    },
+    {
+      "sku": "SKU01083",
+      "old_uom": "each",
+      "new_uom": "carton"
+    }
+  ],
+  "discontinued_skus": [
+    "SKU01253",
+    "SKU01223",
+    "SKU01163",
+    "SKU01111",
+    "SKU01078",
+    "SKU01254"
+  ],
+  "new_skus": [
+    {
+      "sku": "SKU99000",
+      "unit_cost": 264.3225
+    },
+    {
+      "sku": "SKU99001",
+      "unit_cost": 154.422
+    },
+    {
+      "sku": "SKU99002",
+      "unit_cost": 500.51
+    }
+  ],
+  "orphan_sku_referenced_in_day2_txn": "SKU01254"
+}
