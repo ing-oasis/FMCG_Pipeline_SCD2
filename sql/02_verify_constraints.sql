@@ -10,7 +10,7 @@
 -- The script uses BEGIN ... ROLLBACK so nothing persists after verification.
 --
 -- Run with:
---   docker exec -i pb_postgres psql -U airflow -d pbtech_warehouse -v ON_ERROR_STOP=0 < sql/02_verify_constraints.sql
+--   docker exec -i retail_postgres psql -U airflow -d retail_warehouse -v ON_ERROR_STOP=0 < sql/02_verify_constraints.sql
 --
 -- IMPORTANT: -v ON_ERROR_STOP=0 lets the script continue after expected errors.
 -- Without that flag, the script halts on the first probe (which is supposed to fail).

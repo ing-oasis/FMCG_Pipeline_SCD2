@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # One-time setup after `docker compose up -d --build`.
 #
-# Registers the pb_postgres connection in Airflow (so the DAG can reach
+# Registers the retail_postgres connection in Airflow (so the DAG can reach
 # the warehouse database), and deploys the warehouse schema.
 #
 # Safe to re-run: re-registering the connection is a no-op, and the schema
@@ -26,26 +26,26 @@ for i in $(seq 1 60); do
     fi
 done
 
-echo "→ Step 2: Register pb_postgres connection in Airflow..."
-docker exec pb_airflow airflow connections delete pb_postgres 2>/dev/null || true
-docker exec pb_airflow airflow connections add pb_postgres \
+echo "→ Step 2: Register retail_postgres connection in Airflow..."
+docker exec retail_airflow airflow connections delete retail_postgres 2>/dev/null || true
+docker exec retail_airflow airflow connections add retail_postgres \
     --conn-type postgres \
-    --conn-host pb_postgres \
+    --conn-host retail_postgres \
     --conn-login airflow \
     --conn-password airflow \
-    --conn-schema pbtech_warehouse \
+    --conn-schema retail_warehouse \
     --conn-port 5432 \
     >/dev/null
 echo "  Connection registered"
 
 echo "→ Step 3: Ensure local Airflow admin login..."
-if docker exec pb_airflow airflow users reset-password \
+if docker exec retail_airflow airflow users reset-password \
         --username admin \
         --password admin \
         >/dev/null 2>&1; then
     echo "  Admin password reset (admin / admin)"
 else
-    docker exec pb_airflow airflow users create \
+    docker exec retail_airflow airflow users create \
         --username admin \
         --firstname Admin \
         --lastname User \
@@ -57,12 +57,12 @@ else
 fi
 
 echo "→ Step 4: Deploy warehouse schema..."
-docker exec -i pb_postgres psql -U airflow -d pbtech_warehouse \
+docker exec -i retail_postgres psql -U airflow -d retail_warehouse \
     < sql/01_schema.sql > /dev/null
 echo "  Schema deployed (17 tables across 4 schemas)"
 
 echo "→ Step 5: Verify the constraints..."
-docker exec -i pb_postgres psql -U airflow -d pbtech_warehouse \
+docker exec -i retail_postgres psql -U airflow -d retail_warehouse \
     -v ON_ERROR_STOP=0 < sql/02_verify_constraints.sql 2>&1 \
     | tail -3 | head -1
 echo "  Constraint verification complete (ERROR messages above are expected)"
@@ -82,7 +82,7 @@ echo ""
 echo "============================================================"
 echo "Setup complete. Next steps:"
 echo "  1. Open http://localhost:8080 (admin / admin)"
-echo "  2. Find the 'pb_tech_etl' DAG in the list"
+echo "  2. Find the 'retail_etl' DAG in the list"
 echo "  3. Toggle it on (top-left switch)"
 echo "  4. Click 'Trigger DAG' (▶ button, top-right)"
 echo "  5. Watch tasks turn green"

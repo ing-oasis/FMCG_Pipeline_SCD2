@@ -1,4 +1,6 @@
-# FMCG Pipeline - Inventory & Margin Reconciliation
+# Retail ETL Pipeline - Inventory & Margin Reconciliation
+
+> Status: complete portfolio project
 
 End-to-end ETL pipeline simulating the data flow at a New Zealand computing hardware retailer. Three source systems - POS transactions, ERP inventory movements, and supplier cost master - flow through a PostgreSQL warehouse with conformed dimensions, facts, an SCD Type 2 product-cost dimension, and analytics-ready marts for margin and stock reconciliation.
 
@@ -32,19 +34,19 @@ docker compose up -d --build
 bash setup.sh
 ```
 
-Open `http://localhost:8080`, log in as `admin` / `admin`, enable the `pb_tech_etl` DAG, and trigger it.
+Open `http://localhost:8080`, log in as `admin` / `admin`, enable the `retail_etl` DAG, and trigger it.
 
 To run the day 2 scenario after day 1 has loaded:
 
 ```bash
 bash scripts/switch_to_day.sh 2
-# Trigger the pb_tech_etl DAG again from Airflow
+# Trigger the retail_etl DAG again from Airflow
 ```
 
 To run the portfolio/demo analytics queries after a DAG run:
 
 ```bash
-docker exec -i pb_postgres psql -U airflow -d pbtech_warehouse < sql/03_analytics_queries.sql
+docker exec -i retail_postgres psql -U airflow -d retail_warehouse < sql/03_analytics_queries.sql
 ```
 
 ## Testing
@@ -65,12 +67,12 @@ Container checks:
 ```bash
 docker compose up -d --build
 bash setup.sh
-docker exec pb_airflow airflow dags list | grep pb_tech_etl
+docker exec retail_airflow airflow dags list | grep retail_etl
 ```
 
 ## DAG Flow
 
-`pb_tech_etl` runs these stages:
+`retail_etl` runs these stages:
 
 1. Wait for source files.
 2. Load raw CSV/JSON extracts into staging.
@@ -105,7 +107,7 @@ The simulator creates two days of deterministic source data:
 
 ## Key Files
 
-- [dags/pb_tech_etl.py](dags/pb_tech_etl.py): Airflow DAG and task wrappers
+- [dags/retail_etl.py](dags/retail_etl.py): Airflow DAG and task wrappers
 - [dags/transforms/scd2.py](dags/transforms/scd2.py): SCD Type 2 merge logic
 - [dags/transforms/inventory.py](dags/transforms/inventory.py): dense running balance and stock reconciliation
 - [dags/transforms/marts.py](dags/transforms/marts.py): margin mart builder

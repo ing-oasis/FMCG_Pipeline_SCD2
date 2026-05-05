@@ -1,5 +1,5 @@
 """
-PB Tech pipeline — data simulator.
+Retail ETL pipeline — data simulator.
 
 Produces TWO complete sets of source files (`day1/` and `day2/`) in
 scripts/sim_data/. The DAG reads from data/raw/ — a separate switch_to_day.sh
@@ -615,7 +615,7 @@ def write_snapshot(out_dir, rows):
 
 def main():
     print("=" * 60)
-    print("PB Tech pipeline data simulator")
+    print("Retail ETL pipeline data simulator")
     print("=" * 60)
 
     # Step 1: shared catalog

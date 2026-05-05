@@ -1,5 +1,5 @@
 """
-Transformation logic for the PB Tech pipeline.
+Transformation logic for the retail ETL pipeline.
 
 Organised into modules by concern:
   - cleaning   : staging-layer cleaning (dirty-data handling)

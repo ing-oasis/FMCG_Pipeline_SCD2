@@ -7,4 +7,4 @@
 -- volume is empty. If you change this file after first boot, you must
 -- `docker compose down -v` to wipe the volume and re-init.
 
-CREATE DATABASE pbtech_warehouse;
+CREATE DATABASE retail_warehouse;

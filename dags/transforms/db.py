@@ -1,5 +1,5 @@
 """
-Database helpers for the PB Tech pipeline.
+Database helpers for the retail ETL pipeline.
 
 Two purposes:
   1. Engine factory — single source of truth for how we connect to Postgres.
@@ -40,7 +40,7 @@ def run_query(engine: Engine, query, params=None) -> pd.DataFrame:
 # Engine factory
 # ---------------------------------------------------------------------------
 
-def get_engine(conn_id: str = "pb_postgres") -> Engine:
+def get_engine(conn_id: str = "retail_postgres") -> Engine:
     """
     Return a SQLAlchemy engine connected to the warehouse database.
 
@@ -60,7 +60,7 @@ def get_engine(conn_id: str = "pb_postgres") -> Engine:
         # Fallback for local development / smoke tests.
         # Connection string mirrors docker-compose.yml.
         return create_engine(
-            "postgresql+psycopg2://airflow:airflow@localhost:5432/pbtech_warehouse",
+            "postgresql+psycopg2://airflow:airflow@localhost:5432/retail_warehouse",
             future=True,
         )
 

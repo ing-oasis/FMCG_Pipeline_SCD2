@@ -1,5 +1,5 @@
 """
-PB Tech inventory & margin pipeline — complete DAG.
+Retail inventory & margin pipeline — complete DAG.
 
 Task structure (matches the design diagram):
     start
@@ -60,9 +60,9 @@ log = logging.getLogger(__name__)
 # =============================================================================
 # Configuration
 # =============================================================================
-DAG_ID         = "pb_tech_etl"
+DAG_ID         = "retail_etl"
 DATA_DIR       = "/opt/airflow/data/raw"      # mounted from host
-POSTGRES_CONN  = "pb_postgres"
+POSTGRES_CONN  = "retail_postgres"
 DEFAULT_ARGS = {
     "owner":           "data-team",
     "depends_on_past": False,
@@ -559,12 +559,12 @@ def refresh_stock_reconciliation(**context):
 
 with DAG(
     dag_id=DAG_ID,
-    description="PB Tech inventory & margin reconciliation pipeline",
+    description="Retail inventory & margin reconciliation pipeline",
     default_args=DEFAULT_ARGS,
     start_date=datetime(2026, 4, 1),
     schedule="0 2 * * *",          # daily at 02:00 UTC (catchup off, demo manual)
     catchup=False,
-    tags=["pb-tech", "etl", "scd2", "reconciliation"],
+    tags=["retail", "etl", "scd2", "reconciliation"],
 ) as dag:
 
     start = EmptyOperator(task_id="start")

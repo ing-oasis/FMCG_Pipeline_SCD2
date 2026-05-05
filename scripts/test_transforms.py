@@ -1,5 +1,5 @@
 """
-Transform smoke test for the completed PB Tech pipeline.
+Transform smoke test for the retail ETL pipeline.
 
 Verifies:
   1. The transforms package imports cleanly

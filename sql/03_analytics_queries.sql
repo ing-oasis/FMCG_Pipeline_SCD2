@@ -1,8 +1,8 @@
 -- =============================================================================
--- PB Tech pipeline - analytics and demo queries
+-- Retail ETL pipeline - analytics and demo queries
 -- =============================================================================
--- Run after at least one successful pb_tech_etl DAG run:
---   docker exec -i pb_postgres psql -U airflow -d pbtech_warehouse < sql/03_analytics_queries.sql
+-- Run after at least one successful retail_etl DAG run:
+--   docker exec -i retail_postgres psql -U airflow -d retail_warehouse < sql/03_analytics_queries.sql
 --
 -- These queries are read-only. They are designed for portfolio walkthroughs:
 -- margin performance, SCD2 cost history, reconciliation drift, orphan-cost

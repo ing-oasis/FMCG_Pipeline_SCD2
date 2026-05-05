@@ -1,5 +1,5 @@
 -- =============================================================================
--- PB Tech pipeline — full schema deployment
+-- Retail ETL pipeline — full schema deployment
 -- =============================================================================
 -- 17 application tables across 4 schemas:
 --   staging   (4 tables) — permissive landing for raw data
@@ -9,7 +9,7 @@
 --
 -- Idempotent: DROP SCHEMA ... CASCADE at the top wipes any prior state.
 -- Run with:
---   docker exec -i pb_postgres psql -U airflow -d pbtech_warehouse < sql/01_schema.sql
+--   docker exec -i retail_postgres psql -U airflow -d retail_warehouse < sql/01_schema.sql
 --
 -- After running, sql/02_verify_constraints.sql probes the defensive properties
 -- (partial unique index, CHECK constraints, sign convention).
